@@ -5,11 +5,10 @@ import './navbar.css';
 function Navbar() {
   return (
     <>
-        <div className="navbar-menu" style={{borderBottom: "solid"}}>
+        <div className="navbar-menu has-background-warning-light" >
             <div className="navbar-start">
                 <Link to="/" className="navbar-item">Home</Link>
                 <Link to="/projects" className="navbar-item">Projects</Link>
-                <Link to="/resume" className="navbar-item">Resume/CV</Link>
                 <Link to="/contact" className="navbar-item">Contact Me</Link>
             </div>
             <div className="navbar-end">
