@@ -1,7 +1,27 @@
-.intro {
+.left {
+    font-size: 2em;
+    margin-top: 250px;
+    padding: 20px;
+    font-family: 'Overpass', sans-serif;
+    margin-right: 100px;
+}
+
+.right {
+    margin-top: 160px;
+    padding: 20px;
+    
+}
+.content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    height: 10vh;
+
+}
+
+.main {
+    min-height: 100vh;
+}
+
+#profile-pic {
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
 }

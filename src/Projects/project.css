@@ -1,0 +1,13 @@
+#main-section{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h1{
+    padding: 10px;
+}
+
+img {
+    border-radius: 0;
+    width: 500px;
+}
