@@ -3,9 +3,9 @@ import './footer.css';
 
 function Foot() {
   return (
-    <footer className='my-footer'>
+    <footer className='my-footer has-background-warning-light'>
       <div className="has-text-centered">
-        <p>This website was constructed and is owned by <strong>Malick Ouedraogo</strong>.</p>
+        <h1>This website was constructed and is owned by <strong>Malick Ouedraogo</strong>.</h1>
       </div>
     </footer>
   )

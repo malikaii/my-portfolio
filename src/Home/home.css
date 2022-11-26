@@ -1,9 +1,12 @@
 .left {
-    font-size: 2em;
-    margin-top: 250px;
+    font-size: 4em;
+    /* align-self: center; */
     padding: 20px;
-    font-family: 'Overpass', sans-serif;
-    margin-right: 100px;
+    font-family: 'Anek Devanagari', sans-serif;
+
+}
+.left > h3 {
+    color: rgb(59, 48, 48);
 }
 
 .right {
@@ -13,11 +16,12 @@
 }
 .content {
     display: flex;
+    background-image: url('../newyork2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width:200px; */
+    height: 100vh;
 
-}
-
-.main {
-    min-height: 100vh;
 }
 
 #profile-pic {
@@ -25,3 +29,36 @@
     width: 250px;
     border-radius: 50%;
 }
+
+.bio{
+    font-size: 2em;
+}
+
+
+p{
+    
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.typewrite {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
