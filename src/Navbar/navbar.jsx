@@ -5,16 +5,16 @@ import './navbar.css';
 function Navbar() {
   return (
     <>
-        <div className="navbar-menu has-background-warning-light" >
+        <div>
             <div className="navbar-start">
                 <Link to="/" className="navbar-item">Home</Link>
                 <Link to="/projects" className="navbar-item">Projects</Link>
                 <Link to="/contact" className="navbar-item">Contact Me</Link>
             </div>
-            <div className="navbar-end">
-                <a href='https://www.linkedin.com/in/malick-ouedraogo-23b121191/' target="_blank" className="navbar-item" rel="noreferrer"><i className="fa fa-linkedin-square"></i></a>
+            {/* <div className="navbar-end">
+                <a href='https://www.linkedin.com/in/malick-ouedraogo-23b121191/' target="_blank" className="navbar-item" rel="noreferrer"><i className="fa fa-linkedin-square fa-xl"></i></a>
                 <a href='https://github.com/malikaii' className="navbar-item" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
-            </div>
+            </div> */}
         </div>
     </>
 

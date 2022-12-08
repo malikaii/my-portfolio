@@ -1,6 +1,8 @@
 import React from 'react'
 import './home.css';
 import TypewriterComponent from 'typewriter-effect';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function Home() {
 
   const technologies = ['Javascript', 'Java', 'HTML', 'CSS', 'Python', 'SQL'];
@@ -17,7 +19,7 @@ function Home() {
                   strings: ['Welcome to my Profile'],
                   autoStart: true,
                   loop: true,
-                }} 
+              }} 
               />
             </div>
         </div>
@@ -39,6 +41,7 @@ function Home() {
                 technologies.map((item, key) => (
                   <div className="column" key={key}>
                     <i className={faIcons}></i>
+                    <FontAwesomeIcon icon="fa-brands fa-linkedin" />
                     <div className='notification'>
                       <span>{item}</span>
                     </div>

@@ -9,7 +9,7 @@ function Project() {
   return (
     <>
       <div className='container' id='main-section'>
-        <h1 className='is-size-3'>Projects</h1>
+        <h1 className='is-size-1'>Projects</h1>
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <div class="tile is-child notification is-info">
