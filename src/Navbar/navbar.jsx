@@ -6,15 +6,13 @@ function Navbar() {
   return (
     <>
         <div>
-            <div className="navbar-start">
+            <div className="navbar-start" id="navbar">
                 <Link to="/" className="navbar-item">Home</Link>
                 <Link to="/projects" className="navbar-item">Projects</Link>
+                <Link to="/about" className="navbar-item">About</Link>
                 <Link to="/contact" className="navbar-item">Contact Me</Link>
+                
             </div>
-            {/* <div className="navbar-end">
-                <a href='https://www.linkedin.com/in/malick-ouedraogo-23b121191/' target="_blank" className="navbar-item" rel="noreferrer"><i className="fa fa-linkedin-square fa-xl"></i></a>
-                <a href='https://github.com/malikaii' className="navbar-item" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
-            </div> */}
         </div>
     </>
 

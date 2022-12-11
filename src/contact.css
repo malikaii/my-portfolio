@@ -1,4 +1,13 @@
 #contact {
-    min-height: 100vh;
     font-size: 2em;
+    border-style: solid;
+    border-color: rgb(175, 172, 172);
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.icons > a{
+    padding: 20px;
 }

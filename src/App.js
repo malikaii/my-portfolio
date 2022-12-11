@@ -5,18 +5,23 @@ import Navbar from "./Navbar/navbar";
 import ErrorPage from "./Error/errorpage";
 import Foot from './Footer/footer';
 import Contact from "./contact";
+import About from "./About/about";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/projects" element={<Project/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="*" element={<ErrorPage/>}/>
-        </Routes>
-      <Foot/>
+        <div className="my-content">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/projects" element={<Project/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
+          </Routes>
+        </div>
+        <Foot/>        
     </>
   );
 }

@@ -1,16 +1,14 @@
 #main-section{
-    margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     min-height: 100vh;
 
 }
 
 h1{
     padding: 10px;
-    text-align: center;
 }
 
 img {
-    border-radius: 0;
-    width: 500px;
+    border-radius: 5px;
+    width: 400px;
 }

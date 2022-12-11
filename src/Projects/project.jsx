@@ -1,25 +1,22 @@
 import React from 'react'
-import Tiles from '../Tiles/tiles';
 import './project.css';
 import space from '../spaceinvaders.png'
 import animesearch from '../animesearch.png'
 function Project() {
-
-
   return (
     <>
       <div className='container' id='main-section'>
-        <h1 className='is-size-1'>Projects</h1>
+        <h1 className='is-size-1 has-text-centered'>Projects</h1>
         <div class="tile is-ancestor">
           <div class="tile is-parent">
-            <div class="tile is-child notification is-info">
-              <p class="title">Space Invaders</p>
+            <div class="tile is-child notification has-text-centered">
+              <p class="title " >Space Invaders</p>
               <p className="subtitle"><i>Python remake of the classic Space Invaders arcade game.</i></p>
               <img src={space} alt="imgnotfound" />
             </div>
-          </div>
+          </div> 
           <div class="tile is-parent">
-            <div class="tile is-child notification is-info">
+            <div class="tile is-child notification has-text-centered">
               <p class="title">Anime Search </p>
               <p className='subtitle'><i>Web app that uses api to retrieve anime search results</i></p>
               <img src={animesearch} alt="imgnotfound" />
